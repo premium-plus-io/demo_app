@@ -83,3 +83,6 @@ Preferably written in Swift
 
 ## Settings
 <img width="25%" src="img/Settings.png">
+
+## iPad
+<img width="25%" src="img/iPad Sidebar.png">
