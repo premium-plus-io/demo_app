@@ -1,10 +1,8 @@
-# Changelist
-- 2021--3-11 Zendesk created a new SDK, the Zendesk SDK that will replace all other now Legacy SDKs. For this reason we will no longer need the Chat SDK but will still need the two other APIs since they are richer in features for now.
-
-# What
+# Zendesk Demo App
+## What
 Demo iOS app to show of the [Zendesk SDK](https://developer.zendesk.com/embeddables/docs/zendesk-sdk-for-ios/getting_started) and [Unified Zendesk SDK](https://developer.zendesk.com/embeddables/docs/ios-unified-sdk/getting_started) and [Support SDK](https://developer.zendesk.com/embeddables/docs/ios_support_sdk/nutshell)
 
-# How
+## How
 Universal iOS App for iPhone and iPad
 
 Five tabs:
@@ -15,13 +13,13 @@ Five tabs:
 4. Open Support SDK with 3 buttons: New Request, Show Help Center, My Requests
 5. Settings Tab
 
-## Zendesk SDK
+### Zendesk SDK
 https://developer.zendesk.com/embeddables/docs/zendesk-sdk-for-ios/getting_started
 https://support.zendesk.com/hc/en-us/articles/1260801714930
 The Zendesk SDK does not offer user authentication.
 It does needs push notifications enabled.
 
-## Unified SDK
+### Unified SDK
 https://developer.zendesk.com/embeddables/docs/ios-unified-sdk/introduction
 The Unified SDK should check for and load all three engines.
 The tint color should be #2f2a95
@@ -35,7 +33,7 @@ The tint color should be #2f2a95
 											 configs: [messagingConfiguration])
 	   }
 
-## Support SDK
+### Support SDK
 https://developer.zendesk.com/embeddables/docs/ios_support_sdk/about
 The Support tab has 3 buttons that load respectively the following configurations:
 
@@ -46,11 +44,11 @@ The Support tab has 3 buttons that load respectively the following configuration
 
 The tint color should be The tint color should be #2f2a95
 
-# Settings tab
-## Toggle Unified Settings
+## Settings tab
+### Toggle Unified Settings
 Disable or Enable Chat/Support/Answer Bot Engine
 
-## JWT authentication
+### JWT authentication
 
 JWT authentication with a service provider of your choice or if known:
 
@@ -60,10 +58,10 @@ JWT authentication with a service provider of your choice or if known:
 
 Since it's a demo application it doesn't really matter where we authenticate, we can move user auth of the demo Zendesk environment.
 
-# Swift
+## Swift
 Preferably written in Swift
 
-# Icons
+## Icons
 SF icons:
 - Web: globe
 - Zendesk: questionmark.circle or 
@@ -71,32 +69,40 @@ SF icons:
 - Support: ticket
 - Settings: gear  􀍟
 
-# References
+## Icon
+See icon.xassets
+![icon/icon_template.png]
+
+## References
 - Code can be copied from https://github.com/zendesk/ios_sdk_demo_apps
 - See also [Remember the date](https://github.com/zendesk/sdk_demo_app_ios) on the [App Store](https://apps.apple.com/be/app/remember-the-date/id944696609) for an example on how the SDK works.
 
-# What we can provide:
+## What we can provide:
 - Access and tokens for premiumplusdemo.zendesk.com environment
 - Access to our Auth0 (or if needed other) auth platform
 
-# Screenshots
-## Web
+## Screenshots
+### Web
 <img width="25%" src="img/Web.png">
 
-## Unified SDK
+### Zendesk SDK
 <img width="25%" src="img/Unified SDK.png">
 
-## Support SDK
+### Unified SDK
+<img width="25%" src="img/Unified SDK.png">
+
+### Support SDK
 <img width="25%" src="img/Support SDK.png"><br>
 <img width="25%" src="img/Support SDK - Guide.png">
 <img width="25%" src="img/Support SDK - New Ticket.png">
 <img width="25%" src="img/Support SDK - My Tickets.png">
 
-## Chat
-<img width="25%" src="img/Chat SDK.png">
-
-## Settings
+### Settings
 <img width="25%" src="img/Settings.png">
 
-## iPad
+### iPad (optional)
 <img width="25%" src="img/iPad Sidebar.png">
+
+## Changelist
+- 2021--3-11 Zendesk created a new SDK, the Zendesk SDK that will replace all other now Legacy SDKs. For this reason we will no longer need the Chat SDK but will still need the two other APIs since they are richer in features for now.
+
