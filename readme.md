@@ -1,5 +1,8 @@
+# Changelist
+Zendesk created a new SDK, the Zendesk SDK that will replace all other now Legacy SDKs. For this reason we will no longer need the Chat SDK but will still need the two other APIs since they are richer in features for now.
+
 # What
-Demo iOS app to show of the [Unified Zendesk SDK](https://developer.zendesk.com/embeddables/docs/ios-unified-sdk/getting_started) and [Support SDK](https://developer.zendesk.com/embeddables/docs/ios_support_sdk/nutshell)
+Demo iOS app to show of the [Zendesk SDK](https://developer.zendesk.com/embeddables/docs/zendesk-sdk-for-ios/getting_started) and [Unified Zendesk SDK](https://developer.zendesk.com/embeddables/docs/ios-unified-sdk/getting_started) and [Support SDK](https://developer.zendesk.com/embeddables/docs/ios_support_sdk/nutshell)
 
 # How
 Universal iOS App for iPhone and iPad
@@ -7,10 +10,15 @@ Universal iOS App for iPhone and iPad
 Five tabs:
 
 1. Load SFViewcontroller to somedomain.com
-2. Open Unified SDK with Chat, Answer Bot and Support Engine Loaded
-3. Open Support SDK with 3 buttons: New Request, Show Help Center, My Requests
-4. Open Chat SDK
-4. Settings Tab
+2. Open Zendesk SDK
+3. Open Unified SDK with Chat, Answer Bot and Support Engine Loaded
+4. Open Support SDK with 3 buttons: New Request, Show Help Center, My Requests
+5. Settings Tab
+
+## Zendesk SDK
+https://developer.zendesk.com/embeddables/docs/zendesk-sdk-for-ios/getting_started
+The Unified SDK should check for and load all three engines.
+The tint color should be #2f2a95
 
 ## Unified SDK
 https://developer.zendesk.com/embeddables/docs/ios-unified-sdk/introduction
@@ -37,9 +45,6 @@ The Support tab has 3 buttons that load respectively the following configuration
 
 The tint color should be The tint color should be #2f2a95
 
-# Chat Tab
-Loads the Zendesk Chat SDK
-
 # Settings tab
 ## Toggle Unified Settings
 Disable or Enable Chat/Support/Answer Bot Engine
@@ -56,6 +61,14 @@ Since it's a demo application it doesn't really matter where we authenticate, we
 
 ## Swift
 Preferably written in Swift
+
+# Icons
+SF icons:
+- Web: globe
+- Zendesk: questionmark.circle
+- Unified: lifepreserver
+- Support: ticket
+- Settings: Gear
 
 # References
 - Code can be copied from https://github.com/zendesk/ios_sdk_demo_apps
