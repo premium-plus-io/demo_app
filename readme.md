@@ -70,8 +70,9 @@ SF icons:
 - Settings: gear  􀍟
 
 ## Icon
-See icon.xassets
-![icon/icon_template.png]
+See icon/icon.xassets in this repository
+
+![](icon/icon.xcassets/AppIcon.appiconset/icon.png)
 
 ## References
 - Code can be copied from https://github.com/zendesk/ios_sdk_demo_apps
