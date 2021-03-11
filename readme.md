@@ -17,6 +17,7 @@ Five tabs:
 
 ## Zendesk SDK
 https://developer.zendesk.com/embeddables/docs/zendesk-sdk-for-ios/getting_started
+https://support.zendesk.com/hc/en-us/articles/1260801714930
 The Unified SDK should check for and load all three engines.
 The tint color should be #2f2a95
 
