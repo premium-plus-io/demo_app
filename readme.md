@@ -68,7 +68,7 @@ SF icons:
 - Zendesk: questionmark.circle
 - Unified: lifepreserver
 - Support: ticket
-- Settings: Gear
+- Settings: gear  􀍟
 
 # References
 - Code can be copied from https://github.com/zendesk/ios_sdk_demo_apps
