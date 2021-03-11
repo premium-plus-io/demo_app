@@ -1,5 +1,5 @@
 # Changelist
-Zendesk created a new SDK, the Zendesk SDK that will replace all other now Legacy SDKs. For this reason we will no longer need the Chat SDK but will still need the two other APIs since they are richer in features for now.
+- 2021--3-11 Zendesk created a new SDK, the Zendesk SDK that will replace all other now Legacy SDKs. For this reason we will no longer need the Chat SDK but will still need the two other APIs since they are richer in features for now.
 
 # What
 Demo iOS app to show of the [Zendesk SDK](https://developer.zendesk.com/embeddables/docs/zendesk-sdk-for-ios/getting_started) and [Unified Zendesk SDK](https://developer.zendesk.com/embeddables/docs/ios-unified-sdk/getting_started) and [Support SDK](https://developer.zendesk.com/embeddables/docs/ios_support_sdk/nutshell)
@@ -18,8 +18,8 @@ Five tabs:
 ## Zendesk SDK
 https://developer.zendesk.com/embeddables/docs/zendesk-sdk-for-ios/getting_started
 https://support.zendesk.com/hc/en-us/articles/1260801714930
-The Unified SDK should check for and load all three engines.
-The tint color should be #2f2a95
+The Zendesk SDK does not offer user authentication.
+It does needs push notifications enabled.
 
 ## Unified SDK
 https://developer.zendesk.com/embeddables/docs/ios-unified-sdk/introduction
@@ -60,13 +60,13 @@ JWT authentication with a service provider of your choice or if known:
 
 Since it's a demo application it doesn't really matter where we authenticate, we can move user auth of the demo Zendesk environment.
 
-## Swift
+# Swift
 Preferably written in Swift
 
 # Icons
 SF icons:
 - Web: globe
-- Zendesk: questionmark.circle
+- Zendesk: questionmark.circle or 
 - Unified: lifepreserver
 - Support: ticket
 - Settings: gear  􀍟
