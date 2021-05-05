@@ -1,0 +1,142 @@
+disabled_rules:
+  - missing_docs # Maybe later
+opt_in_rules:
+  - anyobject_protocol
+  - array_init
+  - attributes
+  - closure_body_length
+  - closure_end_indentation
+  - closure_spacing
+  - collection_alignment
+  - contains_over_first_not_nil
+  - contains_over_range_nil_comparison
+  - convenience_type
+  - discouraged_object_literal
+  - empty_count
+  - empty_string
+  - empty_xctest_method
+  - explicit_init
+  - extension_access_modifier
+  - fallthrough
+  - fatal_error_message
+  - file_header
+  - file_name
+  - first_where
+  - flatmap_over_map_reduce
+  - force_unwrapping
+  - function_default_parameter_at_end
+  - identical_operands
+  - implicit_return
+  - implicitly_unwrapped_optional
+  - joined_default_parameter
+  - last_where
+  - legacy_random
+  - let_var_whitespace
+  - literal_expression_end_indentation
+  - lower_acl_than_parent
+  - modifier_order
+  - multiline_function_chains
+  - multiline_parameters
+  - nimble_operator
+  - nslocalizedstring_key
+  - number_separator
+  - operator_usage_whitespace
+  - overridden_super_call
+  - override_in_extension
+  - pattern_matching_keywords
+  - prefixed_toplevel_constant
+  - private_action
+  - private_outlet
+  - prohibited_super_call
+  - quick_discouraged_call
+  - quick_discouraged_focused_test
+  - quick_discouraged_pending_test
+  - reduce_into
+  - redundant_nil_coalescing
+  - redundant_type_annotation
+  - required_enum_case
+  - single_test_class
+  - sorted_first_last
+  - sorted_imports
+  - static_operator
+  - strong_iboutlet
+  - switch_case_on_newline
+  - toggle_bool
+  - type_contents_order
+  - unavailable_function
+  - unneeded_parentheses_in_closure_argument
+  - unowned_variable_capture
+  - untyped_error_in_catch
+  - vertical_parameter_alignment_on_call
+  - vertical_whitespace_closing_braces
+  - xct_specific_matcher
+  - yoda_condition
+
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Carthage
+  - Pods
+  - Frameworks
+  - fastlane
+  - Boost/Resources/StringKey.swift
+
+analyzer_rules: # Rules run by `swiftlint analyze` (experimental)
+  - explicit_self
+  - unused_import
+
+force_cast:
+  severity: warning
+force_try:
+  severity: warning
+line_length:
+  warning: 200
+  error: 300
+type_body_length:
+  warning: 150
+  error: 300
+file_length:
+  warning: 400
+  error: 450
+function_parameter_count:
+  warning: 7
+  error: 10
+empty_count:
+  only_after_dot: true
+
+type_name:
+  min_length: 3
+  max_length:
+    warning: 50
+    error: 60
+identifier_name:
+  min_length: 1
+  max_length:
+    warning: 50
+    error: 60
+closure_body_length:
+  warning: 25
+  error: 35
+
+type_contents_order:
+  order:
+    - case
+    - type_alias
+    - associated_type
+    - subtype
+    - ib_outlet
+    - ib_inspectable
+    - type_property
+    - instance_property
+    - initializer
+    - type_method
+    - view_life_cycle_method
+    - deinitializer
+    - ib_action
+    - other_method
+    - subscript
+
+file_header:
+  required_string: Next Apps
+reporter: "xcode" # reporter type (xcode, json, csv, checkstyle, junit, html, emoji, sonarqube, markdown)
+
+attributes:
+  always_on_same_line: ["@IBAction", "@NSManaged", "@objc"]

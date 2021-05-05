@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="E9p-85-8h7">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Web-->
+        <scene sceneID="9iv-Fq-Fgq">
+            <objects>
+                <viewController storyboardIdentifier="WebViewController" id="IFL-n0-1MU" customClass="WebViewController" customModule="Zendesk_Demo_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IEd-kV-LNV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="u3Z-Ou-ybi"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Web" image="network" catalog="system" id="F2G-4L-PdA"/>
+                    <navigationItem key="navigationItem" id="38Q-uz-3qf">
+                        <barButtonItem key="rightBarButtonItem" image="arrow.counterclockwise" catalog="system" id="Fbn-Qr-aL7">
+                            <connections>
+                                <action selector="reload" destination="IFL-n0-1MU" id="2fY-MZ-Qn8"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VP6-dP-TFF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1184.0579710144928" y="114.50892857142857"/>
+        </scene>
+        <!--Web-->
+        <scene sceneID="Jao-VX-ODi">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OjH-fw-LU4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="E9p-85-8h7" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Web" image="network" catalog="system" id="i6Z-4e-Zfb"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="6ZX-ZL-3PJ">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="IFL-n0-1MU" kind="relationship" relationship="rootViewController" id="wEj-sv-EuK"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="273.91304347826087" y="114.50892857142857"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrow.counterclockwise" catalog="system" width="115" height="128"/>
+        <image name="network" catalog="system" width="128" height="121"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

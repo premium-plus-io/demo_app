@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  NextAppsKit
+
+  Created by Andrew Haentjens on 31/03/2020.
+  Copyright © 2020 Next Apps. All rights reserved.
+*/
+
+"maps_navigation_app" = "Karten";
+"google_maps_navigation_app" = "Google Maps";
+"waze_navigation_app" = "Waze";

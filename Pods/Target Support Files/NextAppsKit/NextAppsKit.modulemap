@@ -1,0 +1,6 @@
+framework module NextAppsKit {
+  umbrella header "NextAppsKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

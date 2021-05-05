@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bXN-k7-t8c">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Support SDK-->
+        <scene sceneID="UdV-5j-Hvb">
+            <objects>
+                <tableViewController title="Support SDK" id="bXN-k7-t8c" customClass="SupportViewController" customModule="Zendesk_Demo_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="SD8-3M-JZX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <sections>
+                            <tableViewSection headerTitle="CHOOSE A SUPPORT CHANNEL" id="0Me-G7-OhH">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Guide" id="P44-6p-StB">
+                                        <rect key="frame" x="0.0" y="49.5" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="P44-6p-StB" id="N4i-fg-jTj">
+                                            <rect key="frame" x="0.0" y="0.0" width="384.5" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Guide" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J77-yP-3qz">
+                                                    <rect key="frame" x="20" y="11" width="356.5" height="22"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="J77-yP-3qz" firstAttribute="top" secondItem="N4i-fg-jTj" secondAttribute="topMargin" id="Yd1-dw-50h"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="J77-yP-3qz" secondAttribute="bottom" id="cty-aZ-z8b"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="J77-yP-3qz" secondAttribute="trailing" id="etJ-25-loD"/>
+                                                <constraint firstItem="J77-yP-3qz" firstAttribute="leading" secondItem="N4i-fg-jTj" secondAttribute="leadingMargin" id="trH-bl-rad"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="New Ticket" id="ac0-bI-lwj">
+                                        <rect key="frame" x="0.0" y="93" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ac0-bI-lwj" id="1sr-dN-8bg">
+                                            <rect key="frame" x="0.0" y="0.0" width="384.5" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Ticket" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fVH-Lb-WnL">
+                                                    <rect key="frame" x="20" y="11" width="356.5" height="22"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="fVH-Lb-WnL" firstAttribute="leading" secondItem="1sr-dN-8bg" secondAttribute="leadingMargin" id="EjD-wO-Ivu"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="fVH-Lb-WnL" secondAttribute="trailing" id="VP5-IV-SE3"/>
+                                                <constraint firstItem="fVH-Lb-WnL" firstAttribute="top" secondItem="1sr-dN-8bg" secondAttribute="topMargin" id="ZZq-eR-gSB"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="fVH-Lb-WnL" secondAttribute="bottom" id="fGq-RU-xJY"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="My Tickets" id="TT2-4R-Ayr">
+                                        <rect key="frame" x="0.0" y="136.5" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="TT2-4R-Ayr" id="E0i-mS-DoM">
+                                            <rect key="frame" x="0.0" y="0.0" width="384.5" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Tickets" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AIE-Kg-2Ck">
+                                                    <rect key="frame" x="20" y="11" width="356.5" height="22"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="AIE-Kg-2Ck" firstAttribute="top" secondItem="E0i-mS-DoM" secondAttribute="topMargin" id="THQ-VF-3PA"/>
+                                                <constraint firstItem="AIE-Kg-2Ck" firstAttribute="leading" secondItem="E0i-mS-DoM" secondAttribute="leadingMargin" id="Z6k-x2-Kec"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="AIE-Kg-2Ck" secondAttribute="trailing" id="ber-m3-BKd"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="AIE-Kg-2Ck" secondAttribute="bottom" id="mKB-gI-S1N"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="bXN-k7-t8c" id="U1X-FF-pOg"/>
+                            <outlet property="delegate" destination="bXN-k7-t8c" id="Yx5-dv-Ngz"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Support" image="ticket" catalog="system" id="8Zi-NL-5KG"/>
+                    <navigationItem key="navigationItem" id="dIX-VJ-tOJ"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N95-ut-yeu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="274" y="130"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ticket" catalog="system" width="128" height="84"/>
+    </resources>
+</document>

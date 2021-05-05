@@ -1,0 +1,37 @@
+PODS:
+  - Alamofire (5.4.1)
+  - Auth0 (1.31.0):
+    - JWTDecode
+    - SimpleKeychain
+  - JWTDecode (2.6.0)
+  - KeychainSwift (19.0.0)
+  - NextAppsKit (1.8.10)
+  - SimpleKeychain (0.12.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - Auth0 (~> 1.0)
+  - KeychainSwift
+  - NextAppsKit
+
+SPEC REPOS:
+  https://bitbucket.org/next-apps/private-pod-specs.git:
+    - NextAppsKit
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - Auth0
+    - JWTDecode
+    - KeychainSwift
+    - SimpleKeychain
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  Auth0: 5a4ddc55570c8dfb1521de559d7f5409fd7be632
+  JWTDecode: 480ca441ddbd5fbfb2abf17870af62f86436be58
+  KeychainSwift: a06190cf933ad46b1e0abc3d77d29c06331715c7
+  NextAppsKit: d955921e8bea7d1fb2924ebe36f388a6a97aba28
+  SimpleKeychain: d6a74781e20ebac8cd89deebf593587913aeed07
+
+PODFILE CHECKSUM: f0adbc51923a36a2cac6d33a52c6aecda698933f
+
+COCOAPODS: 1.10.0
