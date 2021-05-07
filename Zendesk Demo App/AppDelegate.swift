@@ -64,7 +64,7 @@ private extension AppDelegate {
     }
 
     func setupZendeskSupport() {
-        Zendesk.initialize(appId: "8522ae2a6589c7ca17fd491229ca5f7ca0c4866c35529afb", clientId: "mobile_sdk_client_8c54403a38a122e7dcc2", zendeskUrl: "https://premiumplusdemo.zendesk.com")
+        Zendesk.initialize(appId: "8522ae2a6589c7ca17fd491229ca5f7ca0c4866c35529afb", clientId: "mobile_sdk_client_8c54403a38a122e7dcc2", zendeskUrl: "https://demob2c-pp.zendesk.com")
 
         Support.initialize(withZendesk: Zendesk.instance)
         if let supportInstance = Support.instance {

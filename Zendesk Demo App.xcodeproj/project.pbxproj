@@ -717,14 +717,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Zendesk Demo App/Zendesk Demo App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 33HM669334;
+				DEVELOPMENT_TEAM = JWE5WW6J4L;
 				INFOPLIST_FILE = "Zendesk Demo App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "be.nextapps.Zendesk-Demo-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.verschoren.Zendesk-Demo-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -739,14 +739,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Zendesk Demo App/Zendesk Demo App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 33HM669334;
+				DEVELOPMENT_TEAM = JWE5WW6J4L;
 				INFOPLIST_FILE = "Zendesk Demo App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "be.nextapps.Zendesk-Demo-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.verschoren.Zendesk-Demo-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
