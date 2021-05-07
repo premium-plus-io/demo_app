@@ -25,6 +25,7 @@ public class ZenMessagingViewController: UIViewController {
 
         navigationItem.title = titleString
         navigationController?.navigationBar.scrollEdgeAppearance = navigationController?.navigationBar.standardAppearance
+        navigationController?.navigationBar.isTranslucent = false
 
         Messaging.initialize(channelKey: key, completionHandler: { [weak self] result in
             self?.messaging = try? result.get()

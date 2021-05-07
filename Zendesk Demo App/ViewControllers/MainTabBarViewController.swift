@@ -16,6 +16,8 @@ class MainTabBarViewController: UITabBarController {
         super.viewDidLoad()
 
         viewControllers = tabViewControllers
+
+        tabBar.isTranslucent = false
     }
 
     override func viewWillAppear(_ animated: Bool) {

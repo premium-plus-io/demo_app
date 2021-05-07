@@ -42,6 +42,7 @@ public class UnifiedViewController: UIViewController, JWTAuthenticator {
 
         navigationItem.title = titleString
         navigationController?.navigationBar.scrollEdgeAppearance = navigationController?.navigationBar.standardAppearance
+        navigationController?.navigationBar.isTranslucent = false
 
         CommonTheme.currentTheme.primaryColor = UIColor.colorFromHex("#2f2a95")
 

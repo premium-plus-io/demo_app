@@ -13,7 +13,6 @@ enum SupportHelper {
 
     static func getGuideViewController() -> UIViewController {
         let hcConfig = HelpCenterUiConfiguration()
-        hcConfig.labels = ["ios", "xcode"]
 
         return HelpCenterUi.buildHelpCenterOverviewUi(withConfigs: [hcConfig])
     }

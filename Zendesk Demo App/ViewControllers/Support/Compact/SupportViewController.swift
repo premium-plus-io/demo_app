@@ -28,6 +28,7 @@ class SupportViewController: UITableViewController {
 
         navigationItem.title = titleString
         navigationController?.navigationBar.scrollEdgeAppearance = navigationController?.navigationBar.standardAppearance
+        navigationController?.navigationBar.isTranslucent = false
     }
 }
 

@@ -39,6 +39,7 @@ class SettingsViewController: UITableViewController {
 
         title = titleString
         navigationController?.navigationBar.scrollEdgeAppearance = navigationController?.navigationBar.standardAppearance
+        navigationController?.navigationBar.isTranslucent = false
 
         webViewTextField.delegate = self
         webViewTextField.text = premiumplusUrl?.absoluteString

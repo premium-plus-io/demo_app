@@ -25,6 +25,7 @@ class WebViewController: UIViewController, WKNavigationDelegate {
 
         title = titleString
         navigationController?.navigationBar.scrollEdgeAppearance = navigationController?.navigationBar.standardAppearance
+        navigationController?.navigationBar.isTranslucent = false
         setupWebView()
 
         NotificationCenter.default.addObserver(self, selector: #selector(urlChanged(_:)), name: .webUrlChanged, object: nil)
