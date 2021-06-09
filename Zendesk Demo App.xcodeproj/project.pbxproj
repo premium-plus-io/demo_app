@@ -115,6 +115,7 @@
 		AEC124322AC0E12C4A5F1D5D /* Pods_Zendesk_Demo_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zendesk_Demo_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD3ABB86822614AAA006D099 /* Pods-Zendesk Demo App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zendesk Demo App.release.xcconfig"; path = "Target Support Files/Pods-Zendesk Demo App/Pods-Zendesk Demo App.release.xcconfig"; sourceTree = "<group>"; };
 		F464FAA526384920008CA106 /* ZenMessaging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ZenMessaging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF594963264C06D300A87BEF /* Zendesk Demo AppRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Zendesk Demo AppRelease.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +192,7 @@
 		4D80727126369F5B005FC9AE /* Zendesk Demo App */ = {
 			isa = PBXGroup;
 			children = (
+				FF594963264C06D300A87BEF /* Zendesk Demo AppRelease.entitlements */,
 				4D80743D2636FE67005FC9AE /* Zendesk Demo App.entitlements */,
 				4D8073552636B8BF005FC9AE /* Extenstions */,
 				4D63C08B2639AC0500474E4E /* Models */,
@@ -737,7 +739,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Zendesk Demo App/Zendesk Demo App.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Zendesk Demo App/Zendesk Demo AppRelease.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JWE5WW6J4L;
 				INFOPLIST_FILE = "Zendesk Demo App/Info.plist";
